@@ -1,13 +1,13 @@
-### Lecture on Arrays and Array Methods in JavaScript
+# Lecture on Arrays and Array Methods in JavaScript
 
 ---
 
-#### Introduction to Arrays
+## Introduction to Arrays
 
 Arrays are fundamental data structures in JavaScript used to store multiple values in a single variable. They are widely used because of their versatility and the variety of operations you can perform on them.
 ![image](https://github.com/user-attachments/assets/a8a64bfe-06e7-4467-b04b-40a0e5216f0d)
 
-#### Creating Arrays
+## Creating Arrays
 ![image](https://github.com/user-attachments/assets/ef755d8f-931b-4a4d-ba17-eeca53669eaf)
 
 In JavaScript, arrays can be created using array literals `[]` or the `Array` constructor.
@@ -20,7 +20,7 @@ let numbers = [1, 2, 3, 4, 5];
 let fruits = new Array('apple', 'banana', 'orange');
 ```
 
-#### Accessing Array Elements
+## Accessing Array Elements
 
 Array elements are accessed using zero-based indexing.
 
@@ -29,12 +29,12 @@ let fruits = ['apple', 'banana', 'orange'];
 console.log(fruits[0]); // Output: 'apple'
 ```
 
-#### Array Properties and Methods
+## Array Properties and Methods
 
 JavaScript provides a variety of built-in properties and methods to manipulate arrays efficiently.
 ![image](https://github.com/user-attachments/assets/39f8d2b2-2d6e-4e42-99b2-c732f7513c8f)
 
-##### Common Array Methods
+### Common Array Methods
 
 1. **`push()` and `pop()`**:
    - `push()`: Adds one or more elements to the end of an array.
@@ -91,7 +91,7 @@ JavaScript provides a variety of built-in properties and methods to manipulate a
    });
    ```
 
-##### Functional Array Methods
+### Functional Array Methods
 
 7. **`find()`**:
    - Returns the first element in the array that satisfies the provided testing function.
@@ -127,7 +127,7 @@ JavaScript provides a variety of built-in properties and methods to manipulate a
    ```
 ![image](https://github.com/user-attachments/assets/9cdfa1f1-bb2d-4b24-b693-c802bae471c0)
 
-10. **Callback Functions**:
+# 10. **Callback Functions**:
     - Many array methods such as `forEach`, `find`, `filter`, `reduce`, etc., accept callback functions as arguments.
     - Callback functions are functions passed as arguments to another function to be executed later.
 
